@@ -6,8 +6,6 @@
 
 Откройте index.html двойным кликом. Установка зависимостей не нужна.
 
-Для автоматических тестов при установленном Node.js: `node --test tests/date.test.mjs`. Также можно открыть папку через Live Server.
-
 ## Данные и макет
 
 Экран из учебного проекта «Контур». Макет: https://www.figma.com/design/ZpkkCic8gGMsrm244NVDWQ
