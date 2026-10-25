@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Выбор даты и времени в парикмахерской Контур">
+  <title>Выбор даты и времени — Контур</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body><a class="skip-link" href="#booking">Перейти к записи</a>
+  <header class="site-header container">
+    <a class="brand" href="#booking" aria-label="Контур — запись">КОНТУР</a>
+    <nav class="main-nav" aria-label="Главная навигация">
+      <a href="#service-summary">Услуги</a><a href="#master-name">Мастера</a><a href="#client-review">Отзывы</a><a
+        href="#salon-contacts">Контакты</a>
+    </nav><a class="button button--primary header-booking" href="#booking">Записаться</a>
+  </header>
+  <main class="container booking-main" id="booking">
+    <ol class="booking-steps" aria-label="Этапы записи">
+      <li>✓ Мастер</li>
+      <li>✓ Услуга</li>
+      <li aria-current="step">3 Дата и время</li>
+      <li>4 Контакты</li>
+      <li>5 Подтверждение</li>
+    </ol>
+    <h1 class="page-title">Выберите удобное время</h1>
+    <p class="page-description">Время местное для салона · Москва.</p>
+    <div class="booking-layout">
+      <div class="booking-column">
+        <div class="schedule-grid">
+          <section class="panel calendar-card" aria-labelledby="month-title">
+            <div class="calendar-header">
+              <h2 class="panel-title" id="month-title">Октябрь 2026</h2>
+              <div class="month-navigation"><button class="month-arrow" id="previous-month"
+                  aria-label="Предыдущий месяц" type="button" disabled>‹</button><button class="month-arrow"
+                  id="next-month" aria-label="Следующий месяц" type="button">›</button></div>
+            </div>
+            <p class="panel-hint">Выберите удобный день для визита</p>
+            <div class="weekdays" aria-hidden="true">
+              <span>ПН</span><span>ВТ</span><span>СР</span><span>ЧТ</span><span>ПТ</span><span>СБ</span><span>ВС</span>
+            </div>
+            <div class="calendar-grid" id="calendar-days" role="group" aria-label="Дни месяца"><span
+                class="calendar-blank" aria-hidden="true"></span><span class="calendar-blank"
+                aria-hidden="true"></span><span class="calendar-blank" aria-hidden="true"></span><button
+                class="calendar-day" type="button" aria-label="1 октября 2026" aria-pressed="false"
+                disabled>1</button><button class="calendar-day" type="button" aria-label="2 октября 2026"
+                aria-pressed="false" disabled>2</button><button class="calendar-day" type="button"
+                aria-label="3 октября 2026" aria-pressed="false" disabled>3</button><button class="calendar-day"
+                type="button" aria-label="4 октября 2026" aria-pressed="false" disabled>4</button><button
+                class="calendar-day" type="button" aria-label="5 октября 2026" aria-pressed="false"
+                disabled>5</button><button class="calendar-day" type="button" aria-label="6 октября 2026"
+                aria-pressed="false" disabled>6</button><button class="calendar-day" type="button"
+                aria-label="7 октября 2026" aria-pressed="false" disabled>7</button><button class="calendar-day"
+                type="button" aria-label="8 октября 2026" aria-pressed="false" disabled>8</button><button
+                class="calendar-day" type="button" aria-label="9 октября 2026" aria-pressed="false"
+                disabled>9</button><button class="calendar-day" type="button" aria-label="10 октября 2026"
+                aria-pressed="false" disabled>10</button><button class="calendar-day" type="button"
+                aria-label="11 октября 2026" aria-pressed="false" disabled>11</button><button class="calendar-day"
+                type="button" aria-label="12 октября 2026" aria-pressed="false" disabled>12</button><button
+                class="calendar-day" type="button" aria-label="13 октября 2026" aria-pressed="false"
+                disabled>13</button><button class="calendar-day" type="button" aria-label="14 октября 2026"
+                aria-pressed="false" disabled>14</button><button class="calendar-day" type="button"
+                aria-label="15 октября 2026" aria-pressed="false" disabled>15</button><button class="calendar-day"
+                type="button" aria-label="16 октября 2026" aria-pressed="false" disabled>16</button><button
+                class="calendar-day" type="button" aria-label="17 октября 2026" aria-pressed="false"
+                disabled>17</button><button class="calendar-day" type="button" aria-label="18 октября 2026"
+                aria-pressed="false" disabled>18</button><button class="calendar-day" type="button"
+                aria-label="19 октября 2026" aria-pressed="false" disabled>19</button><button class="calendar-day"
+                type="button" aria-label="20 октября 2026" aria-pressed="false" disabled>20</button><button
+                class="calendar-day" type="button" aria-label="21 октября 2026" aria-pressed="false"
+                disabled>21</button><button class="calendar-day" type="button" aria-label="22 октября 2026"
+                aria-pressed="false" disabled>22</button><button class="calendar-day" type="button"
+                aria-label="23 октября 2026" aria-pressed="false" disabled>23</button><button
+                class="calendar-day is-today" type="button" aria-label="24 октября 2026"
+                aria-pressed="false">24</button><button class="calendar-day" type="button" aria-label="25 октября 2026"
+                aria-pressed="false">25</button><button class="calendar-day" type="button" aria-label="26 октября 2026"
+                aria-pressed="false">26</button><button class="calendar-day" type="button" aria-label="27 октября 2026"
+                aria-pressed="false">27</button><button class="calendar-day" type="button" aria-label="28 октября 2026"
+                aria-pressed="false">28</button><button class="calendar-day" type="button" aria-label="29 октября 2026"
+                aria-pressed="false">29</button><button class="calendar-day" type="button" aria-label="30 октября 2026"
+                aria-pressed="false">30</button><button class="calendar-day is-selected" type="button"
+                aria-label="31 октября 2026" aria-pressed="true">31</button><span class="calendar-blank"
+                aria-hidden="true"></span></div>
+            <p class="calendar-legend">Рамка — сегодня · Оранжевый — выбранная дата</p>
+          </section>
+          <section class="panel slots-card" aria-labelledby="slots-title">
+            <h2 class="panel-title slots-title" id="slots-title">31 октября, суббота</h2>
+            <div id="slots-content" aria-live="polite">
+              <p class="panel-hint">Выберите время начала</p>
+              <div class="slots-list"><button type="button" class="time-slot" aria-pressed="false">12:00</button><button
+                  type="button" class="time-slot" aria-pressed="false">16:00</button><button type="button"
+                  class="time-slot" aria-pressed="false">17:00</button><button type="button" class="time-slot"
+                  aria-pressed="false" disabled>18:00<span class="slot-availability">занято</span></button></div>
+            </div>
+          </section>
+        </div>
+        <section class="selection-bar" aria-label="Выбранная дата и время" aria-live="polite"><span
+            class="eyebrow">Выбрано</span>
+          <p class="selection-text" id="selection-text">Суббота, 31 октября 2026 · Выберите время</p>
+        </section>
+        <div class="booking-actions"><a class="button" href="#service-summary">← К услугам</a><button
+            class="button button--primary" id="continue-button" type="button" disabled>Продолжить</button></div>
+      </div>
+      <aside class="summary-card" id="service-summary" aria-labelledby="summary-title">
+        <p class="eyebrow">Ваша запись</p>
+        <h2 class="summary-title" id="summary-title">Мужская стрижка</h2>
+        <div>
+          <p class="master-name" id="master-name">Алексей Морозов</p>
+          <p class="summary-detail">45 минут</p>
+        </div>
+        <div>
+          <p class="summary-price">1 200 ₽</p>
+          <p class="summary-detail">Оплата после услуги в салоне</p>
+        </div>
+        <address class="summary-address">Москва, ул. Садовая, 12</address>
+      </aside>
+    </div>
+  </main>
+  <footer class="site-footer" id="salon-contacts">
+    <div class="container footer-layout">
+      <div>
+        <p class="footer-brand">КОНТУР</p>
+        <p class="footer-text">Стрижка, которая подходит именно вам.</p>
+      </div>
+      <div>
+        <address class="footer-address footer-text">Москва, ул. Садовая, 12</address>
+        <p class="footer-text">Ежедневно, 10:00–21:00</p>
+      </div>
+      <div><a class="footer-phone footer-link" href="tel:+74950000000">+7 495 000-00-00</a>
+        <p class="footer-text">Учебный проект · 2026</p>
+        <p class="footer-text" id="client-review">★★★★★ «Аккуратно и без спешки». Илья</p>
+      </div>
+    </div>
+  </footer>
+  <dialog class="booking-dialog" id="booking-dialog" aria-labelledby="dialog-title">
+    <h2 class="dialog-title" id="dialog-title">Время выбрано</h2>
+    <p class="dialog-copy" id="dialog-summary"></p>
+    <p class="dialog-copy">Мужская стрижка · Алексей Морозов · 1 200 ₽</p>
+    <p class="summary-detail">Это учебная демонстрация. Запись в салон не отправляется.</p>
+    <form method="dialog" class="dialog-actions"><button class="button button--primary">Вернуться к календарю</button>
+    </form>
+  </dialog>
+</body>
+
+</html>
