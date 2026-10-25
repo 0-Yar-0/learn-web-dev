@@ -1,0 +1,1 @@
+export default function BookingSteps() { return (<ol className="booking-steps" aria-label="Этапы записи"><li>✓ Мастер</li><li>✓ Услуга</li><li aria-current="step">3 Дата и время</li><li>4 Контакты</li><li>5 Подтверждение</li></ol>); }
