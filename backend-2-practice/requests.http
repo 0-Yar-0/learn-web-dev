@@ -1,0 +1,10 @@
+@base = http://127.0.0.1:8000
+
+### Список категорий
+GET {{base}}/categories
+
+### Категория
+GET {{base}}/categories/1
+
+### Отсутствующая категория: 404
+GET {{base}}/categories/999
