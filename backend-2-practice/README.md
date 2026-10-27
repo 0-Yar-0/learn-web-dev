@@ -44,5 +44,3 @@ python -m venv .venv
 - `app/categories.py` — два endpoint и расчёт счётчика.
 - `app/main.py` — приложение FastAPI.
 - `tests/test_categories.py` — пять тестов.
-
-Все данные этого занятия хранятся в памяти. Перенос мастеров в БД выполнен отдельно в третьей практике.
